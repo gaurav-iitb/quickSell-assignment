@@ -4,7 +4,7 @@ import Avatar from "./Avatar";
 
 function Card(props) {
   function Display(title) {
-    console.log(title.length);
+  
     if (title.length > 70) {
       return title.substring(0, 70) + "...";
     }

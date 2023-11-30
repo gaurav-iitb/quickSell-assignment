@@ -12,7 +12,6 @@ function App() {
   const [grouping, setGrouping] = useState("Status");
   const [ordering, setOrdering] = useState("Priority");
 
-  console.log(data);
   function handleToggle(curr) {
     setShow(curr);
   }

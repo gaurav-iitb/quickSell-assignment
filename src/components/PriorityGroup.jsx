@@ -9,7 +9,6 @@ function PriorityGroup(props) {
   const [low, setLow] = useState([]);
   const [noPriority, setNoPriority] = useState([]);
 
-  console.log("ordering", props.ordering);
   useEffect(() => {
     let Urgent = [];
     let High = [];
