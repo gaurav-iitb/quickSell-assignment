@@ -1,0 +1,21 @@
+.avatar_cont {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  right: 0;
+  top: 12px;
+  border-radius: 1rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar_cir {
+  background-color: #DFE1E3;
+  width: 6px;
+  height: 6px;
+  border-radius: 1rem;
+}
+.avai {
+  background-color: green;
+}

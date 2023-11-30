@@ -1,0 +1,32 @@
+:root {
+  --custom-width: calc(16vw + 20px);
+}
+.user_main {
+  display: flex;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 2rem;
+}
+.user_block {
+  display: flex;
+  flex-direction: column;
+  width: var(--custom-width);
+}
+.user_cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: var(--custom-width);
+}
+.user_smblk {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.user_cardcont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

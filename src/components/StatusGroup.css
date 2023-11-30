@@ -1,0 +1,35 @@
+:root {
+  --custom-width: calc(16vw + 20px);
+}
+.status_main {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  padding-top: 2rem;
+}
+.status_block {
+  display: flex;
+  flex-direction: column;
+  width: var(--custom-width);
+}
+.status_cont {
+  display: flex;
+  justify-content: space-between;
+}
+.status_smblk {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.status_cardcont {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sm_circ {
+  width: 13px;
+  height: 13px;
+  border-radius: 1rem;
+  border: 0.5px solid gray;
+}
