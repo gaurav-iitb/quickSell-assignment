@@ -153,7 +153,7 @@ function StatusGroup(props) {
         <div className="status_cont">
           <div className="status_smblk">
             <img alt="" style={{ width: "18px" }} src="cross.png" />
-            <div>Cancelled</div>
+            <div>Canceled</div>
             <div>{canceled.length}</div>
           </div>
           <div className="status_smblk">
