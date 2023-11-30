@@ -50,3 +50,8 @@
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   color: #bfc2c7;
 }
+@media screen and (max-width: 1150px) {
+  .card-mn{
+    width: 80vw;
+  }
+}

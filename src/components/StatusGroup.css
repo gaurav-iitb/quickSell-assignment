@@ -1,10 +1,11 @@
 :root {
   --custom-width: calc(16vw + 20px);
+  --custom-width2: calc(80vw + 20px);
 }
 .status_main {
   display: flex;
   justify-content: center;
-  gap: 2vw;
+  gap: 30px;
   padding-top: 2rem;
 }
 .status_block {
@@ -32,4 +33,19 @@
   height: 13px;
   border-radius: 1rem;
   border: 0.5px solid gray;
+}
+@media screen and (max-width: 1150px) {
+  .status_main {
+    overflow-x: scroll;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    margin-right: 1rem;
+  }
+  .status_block {
+    width: 100vw;
+    margin-bottom: 4rem;
+  }
+  .status_cont {
+    width: var(--custom-width2);
+  }
 }

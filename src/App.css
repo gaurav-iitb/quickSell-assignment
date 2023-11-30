@@ -10,9 +10,9 @@
   margin-left: 2rem;
 }
 .main-body {
-  height: 92vh;
   background-color: #f4f5f8;
-  /* padding: 1rem; */
+  /* padding-bottom: 2rem; */
+  min-height: 92vh;
 }
 .display_div {
   display: flex;

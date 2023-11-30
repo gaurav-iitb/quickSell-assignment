@@ -25,10 +25,6 @@ function UserGroup({ data, ordering }) {
             <div className="user_block">
               <div className="user_cont">
                 <div className="user_smblk">
-                  {/* <img
-                    style={{ borderRadius: "1rem", height: "1rem" }}
-                    src="avatar2.jpg"
-                  /> */}
                   <Avatar available={user.available} />
                   <div>{user.name}</div>
                   <div>{cards.length}</div>

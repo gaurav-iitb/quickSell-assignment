@@ -1,5 +1,6 @@
 :root {
   --custom-width: calc(16vw + 20px);
+  --custom-width2: calc(80vw + 20px);
 }
 .user_main {
   display: flex;
@@ -29,4 +30,17 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media screen and (max-width: 1150px) {
+  .user_main{
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .user_block{
+    width: 100vw;
+    margin-bottom: 4rem;
+  }
+  .user_cont{
+    width: var(--custom-width2);
+  }
 }
